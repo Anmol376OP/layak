@@ -10,6 +10,8 @@ body{
   background: #f2f2f2;
 }
 nav{
+  position: fixed;
+  width: 100%;
   background: #171c24;
   display: flex;
   flex-wrap: wrap;
@@ -106,7 +108,7 @@ nav .search-icon{
     padding: 0 50px;
   }
 }
-@media (max-width: 1140px){
+@media (max-width: 1150px){
   nav{
     padding: 0px;
   }
@@ -190,21 +192,7 @@ nav .search-icon{
     display: block;
   }
 }
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.content header{
-  font-size: 30px;
-  font-weight: 700;
-}
-.content .text{
-  font-size: 30px;
-  font-weight: 700;
-}
+
 .space{
   margin: 10px 0;
 }
@@ -230,30 +218,16 @@ nav .logo.space{
     font-size: 16px;
   }
 }
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.content header{
-  font-size: 30px;
-  font-weight: 700;
-}
-.content .text{
-  font-size: 30px;
-  font-weight: 700;
-}
-.content .space{
-  margin: 10px 0;
-}
-.Image-folder{
-    display: flex;
-}
 .i1{
-    width: 750px;
+    width: 50%;
     /* height: 250px; */
     border-radius: 0%;
     top: -50%;
     left: 100%;
+    visibility: hidden;
+}
+.content{
+  background-color: aqua;
+  width: 100%;
+  height: 1000px;
 }
