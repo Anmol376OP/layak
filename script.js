@@ -37,6 +37,7 @@ btn.onclick = () => {
     document.getElementById("i005").style.color="black";
     document.getElementById("i006").style.color="black";
     document.getElementById("i1").src="images/img1.jpg";
+    document.getElementById("form").style.background="#1e232b";
     // i003.classList.add('blacktheme'
   }
   else
@@ -51,6 +52,7 @@ btn.onclick = () => {
     document.getElementById("i005").style.color="white";
     document.getElementById("i006").style.color="white";
     document.getElementById("i1").src="images/img2.jpg";
+    document.getElementById("form").style.background="white";
   }
 }
 
