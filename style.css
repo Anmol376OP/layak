@@ -223,15 +223,21 @@ nav .logo.space{
     font-size: 16px;
   }
 }
+.Image-folder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
 .i1{
     width: 750px;
     /* height: 250px; */
     border-radius: 0%;
-    top: -50%;
-    left: 100%;
+    /* top: -50%; */
+    /* left: 100%; */
 }
 .banner{
-  margin-top: 600px;
+  /* margin-top: 10px; */
   display: grid;
   place-items: center center;
   font-family: 'Pappins',sans-serif;
@@ -252,7 +258,7 @@ nav .logo.space{
   position: relative;
   clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
 }
-img{
+.image{
   width: 100%;
   display: block;
   border-radius: 20px 20px 0 0;
